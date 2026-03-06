@@ -7,17 +7,17 @@ z_idx_end = last
 
 
 # ---- static geometry / resolution ----
-t = 10
-l_left  = 25
-l_right = 25
+t = 4
+l_left  = 15
+l_right = 15
 
 x_refin = [-7.5, 9.5]
 x_refin_width = 8
 
 
 
-res_local = 0.03
-res_thickness = auto   % auto -> res_local/2
+res_local = 0.06
+res_thickness = 0.04   % auto -> res_local/2
 
 # ---- transition pattern ----
 kmax = 2
